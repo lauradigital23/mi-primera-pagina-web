@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Ejemplo HTML y CSS</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Laura Suniaga</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Mi Página Web</h1>
+        <h1>Laura Suniaga</h1>
+        <p>Programadora Web</p>
     </header>
+
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#acerca">Acerca de mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
-            <h2>Bienvenido a mi sitio</h2>
-            <p>¡Hola! Este es un ejemplo de una página web básica.</p>
-        </section>
-    </main>
+
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <p>Soy una apasionada programadora web con conocimientos en HTML y CSS. Mi objetivo es crear sitios web funcionales y atractivos que brinden una gran experiencia de usuario.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en <a href="mailto:correo@example.com">correo@example.com</a>.</p>
+    </section>
+
     <footer>
-        <p>Derechos de autor &copy; 2023</p>
+        <p>Derechos de autor &copy; 2023 Laura Suniaga</p>
     </footer>
 </body>
 </html>
